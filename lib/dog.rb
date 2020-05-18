@@ -4,7 +4,7 @@ class Dog
 
     @breed = breed
 
-    if breed == nil
+    if @breed == nil
       @breed = "Mutt"
 
     end
